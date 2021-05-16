@@ -1,0 +1,480 @@
+.nobr { white-space: nowrap }
+
+hr {
+	border-color: #445566;
+	border-width: thin;
+}
+
+/* DT columns with GBIF links (for child row version) */
+.details-control {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.form-control:disabled {
+	visibility: hidden;
+}
+
+/* change color of icons */
+.fa-home,
+.fa-table,
+.fa-readme,
+.fa-info-circle,
+.fa-book-open,
+.fa-shape {
+	color: #FAFAFA;
+}
+.dropdown-toggle .fa-info-circle {
+	color: #b5b7bb;
+}
+                
+/* sliderInput: label format of handels */
+.irs-from,
+.irs-to,
+.irs-single { 
+	color: #eeeeee;
+	background: transparent;
+}
+
+/* icons of shapes for network nodes in pickerInput */
+.shapeIcon_dpdn{
+	display: inline;
+	vertical-align: middle;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* colourPicker labels */
+#AColBack label[for="Background_col_Aphid"]{font-size: 0.85em; font-style: normal;}
+#AColBor label[for="Border_col_Aphid"]{font-size: 0.85em; font-style: normal;}
+#AColHigh label[for="Highlight_col_Aphid"]{font-size: 0.85em; font-style: normal;}
+#FColBack label[for="Background_col_Fungus"]{font-size: 0.85em; font-style: normal;}
+#FColBor label[for="Border_col_Fungus"]{font-size: 0.85em; font-style: normal;}
+#FColHigh label[for="Highlight_col_Fungus"]{font-size: 0.85em; font-style: normal;}
+#EColNorm label[for="Edge_col"]{font-size: 0.85em; font-style: normal;}
+#EColHigh label[for="Edge_highlight_col"]{font-size: 0.85em; font-style: normal;}
+
+/*
+#ASym label[for="Ashape_ipt"]{font-size: 0.85em; font-style: normal;}
+#FSym label[for="Fshape_ipt"]{font-size: 0.85em; font-style: normal;}
+*/
+
+#legend_al,
+#highSpec_al {
+	font-weight: bold;
+	color: #6a96ab !important;
+}
+
+#legend_al:hover,
+#highSpec_al:hover {
+	color: #90b5c6 !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+	color: #333333 !important;
+}
+
+/* in the leaflet easyButton #zoom_btn, the world icon highlights blue similar to the '+' and '-' zoom buttons */
+.leaflet-bar button:hover{
+	color: #3993ff;
+}
+
+
+/* popup window for citation in table.
+   The used character strings contain <br> tags,
+   determining the window size in a normal scenario. */
+.popover{
+	max-width: 100%;
+}
+
+.btn-box-tool {
+ 	color: #b5b7bb;
+ }
+
+.btn-box-tool:focus,
+.btn-box-tool:active,
+.btn-box-tool:hover {
+ 	color: #606c64;
+ }
+
+
+
+.container .helloWorld {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+
+/* datatable(): font color of various text including pagination button */
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate,
+.dataTables_wrapper .dataTables_paginate .paginate_button, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+	color: #3b3b3b !important;
+}
+
+/* Side menu: dropdown menus */
+#CarabidaeInpSel,
+#FungusInpSel,
+#InteractionType,
+#CountrySelection,
+#Country_drdn,
+#findCarabidae_node,
+#findFungus_node {
+	background-color: #EEEEEE;
+}
+
+#Carabidae_RdBtn,
+#Fungus_RdBtn,
+#Country_RdBtn {
+	margin-bottom: 0 !important;
+}
+
+
+/* actionButton: background similar to sidebar background  - sidebar menu style --- BEGIN */
+.btn-dark {
+	color: #b5b7bb; 
+	background-color: #222d32;
+	border-color: #7e8188;
+}
+.btn-dark:focus {
+	background-color: #2b394a;
+	color: #b5b7bb;
+}
+.btn-dark:hover {
+	background-color: #2b394a;
+	color: #b5b7bb;
+}
+.btn-dark:active {
+	background-color: #384246 !important;
+	color: #b5b7bb;
+}
+.btn-dark:active:hover {
+	color: #1f1f1f;
+}
+/* actionButton: background similar to sidebar background  - sidebar menu style --- END */
+
+
+/* actionButton: in front of green background (!box --- BEGIN) */
+.btn-grBG {
+	color: #DADADA;
+	background-color: rgba(34, 45, 50, 0.086); /* #222d3222; */
+	border-color: #9daea6;
+}
+
+.btn-grBG:focus {
+	background-color: #2b394a;
+	color: #DADADA;
+}
+.btn-grBG:hover {
+	background-color: #2b394a;
+	color: #DADADA;
+}
+.btn-grBG:active {
+	background-color: #9baaa6 !important;
+	border-color: #798c7d !important;
+}
+
+.btn-grBG:active:focus {
+	outline-color: #5190c9 !important;
+}
+/* actionButton: in front of green background (!box --- END) */
+
+
+#tree_btn_1:active:focus,
+#tree_btn_2:active:focus,
+#sunburst_btn:active:focus,
+#circle_btn:active:focus {
+	color: #FF0000 !important;
+}
+
+
+
+.separator {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+.separator span { 
+    background: #5d7a77; 
+    padding: 0 10px; 
+}
+
+.box.box-teal,
+.box.box-info{
+	border-top-color: #68abf4; /* #489cff; #487eeb; // head line on top of boxes */
+	background-image: linear-gradient(332deg, #7d918e, #a4c1ab);
+}
+
+/* pane below the world map */
+.pad.box-pane-right.bg-black {
+	background-color: #222d32 !important;
+}
+
+/* body background */
+.content-wrapper {
+	background-image: linear-gradient(332deg, #5d7a77, #a9c6ae);
+}
+
+
+/* set maximum width of the natural earth gif */
+.natearth {
+	height: 50%;
+	width: 50%;
+	max-width: 400px;
+}
+
+
+/* collapsed accordion titles */
+.box-info .box-header .collapsed {
+	color: #a0aca9; /* #cfe0e5; */
+}
+
+/* general links:
+   in text as well as accordion titles */
+.box-title a:link {
+  color: #beccc8;
+}
+.box-body a:link {
+  color: #397dcb;
+}
+
+/* visited link 
+   visited link color and only links, not the titles */
+a:visited {
+  color: #1c6527;
+}
+
+/* mouse over link  */
+.box-title a:hover {
+  color: #f3f3f3 !important;
+}
+.box-body a:hover {
+  color: #3993ff !important;
+}
+
+/* selected link
+   while pressing */
+a:active {
+  color: #00ff00;
+}
+
+/* regular box headers and, accordion header background only*/
+.box.box-teal>.box-header,
+.box.box-info>.box-header {
+	color: #beccc8; /* #cfe0e5; */
+	background-color: #1f3033;
+}
+
+.header_button_style{
+	border-color: #00692f;
+	background-color: #008d4c;
+}
+
+
+.btn-nav.active {
+	background-color: #2a452d !important;
+	border-color: #10783b !important;
+}
+
+.label.label-primary {
+	background-color: transparent !important;
+}
+
+
+/* tab selection buttons - BEGIN */
+
+.btn-nav { /* radio button type: will be obsolete */
+	border-color: #00692f !important;
+    background-color: #008d4c !important;
+}
+.btn-green {
+	border-color: #00692f !important;
+    background-color: #008d4c;
+}
+.btn-green:focus {
+	border-color: #adadad !important;
+	background-color: #3b5735 !important;
+}
+
+.btn-green:hover {
+	border-color: #adadad !important;
+	background-color: #3b5735 !important;
+}
+
+.btn-green:active:hover {
+	background-color: #00c067 !important;
+}
+/* tab selection buttons - END */
+
+
+/* visNetwork navigation button style - BEGIN */
+
+div.vis-network div.vis-navigation div.vis-button.vis-up, 
+div.vis-network div.vis-navigation div.vis-button.vis-down, 
+div.vis-network div.vis-navigation div.vis-button.vis-left, 
+div.vis-network div.vis-navigation div.vis-button.vis-right, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomIn, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomOut, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
+  background-image: none !important;
+}
+
+div.vis-network div.vis-navigation div.vis-button:hover {
+  box-shadow: none !important;
+}
+
+.vis-button:after {
+  font-size: 2em;
+  color: #253c55; /* #182738; /* #0f2b4b; /* #4F4F4F; */
+}
+
+.vis-button:hover:after {
+  font-size: 2em;
+  color: lightgray;
+}
+
+.vis-button.vis-up:after {
+  /* content: "▲"; */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  /* content: "\f151"; */ /* caret-square-up */
+  content: "\f139"; /* chefron-circle-up */
+}
+
+.vis-button.vis-down:after {
+  /* content: "▼"; */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  /* content: "\f150"; */ /* caret-square-down */
+  content: "\f13a"; /* chefron-circle-down */
+}
+
+.vis-button.vis-left:after {
+  /* content: "◀"; */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  /* content: "\f191"; */ /* caret-square-left */
+  content: "\f137"; /* chefron-circle-left */
+}
+
+.vis-button.vis-right:after {
+  /*content: "▶"; */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  /* content: "\f152"; */ /* caret-square-right */
+  content: "\f138"; /* chefron-circle-right */
+}
+
+.vis-button.vis-zoomIn:after {
+  content: "+";
+  font-weight: bold;
+}
+
+.vis-button.vis-zoomOut:after {
+  content: "−";
+  font-weight: bold;
+}
+
+.vis-button.vis-zoomExtends:after {
+  /* content: "⤧"; */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0b2"; /* fa-arrows-alt */
+}
+/* visNetwork navigation button style - END */
+
+
+/* network edge legend line definition - BEGIN */
+.dashed {
+  height:25px;
+  background:
+    repeating-linear-gradient(to right,#FAFAFA,#FAFAFA 10px,transparent 10px,transparent 20px) center/100% 2px no-repeat
+}
+.dots {
+  height:25px;
+  background:
+    radial-gradient(circle at center,#FAFAFA 2px,transparent 3px) 5px 50%/8px 5px repeat-x,
+    repeating-linear-gradient(to right,#FAFAFA,#FAFAFA 0px,transparent 0px,transparent 100px) center/100% 2px no-repeat
+}
+.dash-dot {
+  height:25px;
+  background:
+    radial-gradient(circle at center,#FAFAFA 2px,transparent 3px) 5px 50%/20px 5px repeat-x,
+    repeating-linear-gradient(to right,#FAFAFA,#FAFAFA 10px,transparent 10px,transparent 20px) center/100% 2px no-repeat 
+}
+.dash-dot-dot {
+  height:25px;
+  background:
+    radial-gradient(circle at center,#FAFAFA 2px,transparent 3px) 1px  50%/30px 5px repeat-x,
+    radial-gradient(circle at center,#FAFAFA 2px,transparent 3px) 10px 50%/30px 5px repeat-x,
+    repeating-linear-gradient(to right,#FAFAFA,#FAFAFA 10px,transparent 10px,transparent 30px) center/100% 2px no-repeat;
+}
+.dash-dot-dot-dot {
+  height:5px;
+  background:
+      radial-gradient(circle at center,#FAFAFA 2px,transparent 3px) 13px  50%/40px 5px repeat-x,
+      radial-gradient(circle at center,#FAFAFA 2px,transparent 3px) 5px 50%/40px 5px repeat-x,
+      radial-gradient(circle at center,#FAFAFA 2px,transparent 3px) 37px 50%/40px 5px repeat-x,
+    repeating-linear-gradient(to right,#FAFAFA,#FAFAFA 10px,transparent 10px,transparent 40px) center/100% 2px no-repeat;
+}
+.twodash {
+  height:25px;
+  background:
+    radial-gradient(circle at center,#FAFAFA 4px,transparent 4px) 10px 50%/40px 2px repeat-x,
+	repeating-linear-gradient(to right,#FAFAFA,#FAFAFA 20px,transparent 20px,transparent 40px) 0px center/100% 2px no-repeat;
+}
+
+.longdash {
+  height:25px;
+  background:
+    repeating-linear-gradient(to right,#FAFAFA,#FAFAFA 25px,transparent 25px,transparent 35px) 0px center/100% 2px no-repeat;
+}
+
+/* network edge legend line definition - END */
+
+
+
+
+/*
+
+
+.icon {
+    display: inline-block;
+    width: 16.3px;
+    height: 13.45px;
+    overflow: hidden;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 184.4 184.2" style="enable-background:new 0 0 184.4 184.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="92" cy="92.1" r="90.4"/>
+<circle class="st0" cx="125.6" cy="54.6" r="36.6"/>
+<circle class="st0" cx="48.5" cy="99.3" r="43"/>
+<circle class="st0" cx="125.9" cy="130.1" r="36.6"/>
+<circle class="st0" cx="55.8" cy="80.3" r="15.6"/>
+<circle class="st0" cx="29.1" cy="102.6" r="17"/>
+<circle class="st0" cx="120.8" cy="121.1" r="10.8"/>
+<ellipse class="st0" cx="105.5" cy="141.1" rx="8.9" ry="8.9"/>
+<circle class="st0" cx="143.7" cy="113" r="8.4"/>
+<circle class="st0" cx="135.3" cy="34.5" r="9.9"/>
+<circle class="st0" cx="114.4" cy="64.1" r="14.2"/>
+<circle class="st0" cx="113.1" cy="36.9" r="8.3"/>
+<circle class="st0" cx="146.4" cy="59.6" r="13.8"/>
+</svg>'
+}
+
+
+*/
+
